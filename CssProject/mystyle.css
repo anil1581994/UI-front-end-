@@ -1,0 +1,14 @@
+body {
+    background-color: linen;
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+}
+/*body{
+     background-image:url("/home/bridgeit/anil/HtmlProject1/googlelogo.jpg");
+}*/
+body{
+     background-image:url("waterdrops.png");
+}

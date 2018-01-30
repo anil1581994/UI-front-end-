@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function accessInnerElement()
+{
+	var s=document.getElementsByTagName("p");
+	alert(s[0].innerHTML);
+	alert(s[1].innerHTML);
+
+}
+</script>
+</head>
+<body>
+<h1>we are accessing array element</h1>
+
+
+<button onclick="accessInnerElement()">click Here</button>
+<p id="para1">this is first element in array</p>
+<p >this is second element in array</p>
+</body>
+</html>

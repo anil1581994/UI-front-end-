@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<title>Registration With Restriction</title>
+<marquee direction="left" scrollamount="4" bgcolor="pink">*"*""*""*""*Strength and growth come only through continuous effort and struggle*""*""*""*"**"*""*""*""*Thats Enough To Get Success*""*""*""*"*</marquee>
+<body>
+<form>
+<fieldset>
+<legend>Registration Form</legend><br>
+Firstname:<input type="text" name="firstname" maxlength="5" autofocus placeholder="enter your first name" required pattern="[a-z]{1-5}"><br>
+LastName:<input type="text" name="lastname" maxlength="5" autofocus placeholder="enter your last name" required pattern="[a-z]{1-5}"><br>
+E-mail:<input type="email" name="email" required><br>
+Mobile number:<input type="text" required pattern="\+91[0-9]{10}"><br>
+Gender :<input type="radio" name="gender" value="male" checked >male
+<input type="radio" name="gender" value="female" >female
+<input type="radio" name="gender" value="other">other<br>
+Date:<input type="date" name="bday" required><br>
+select your city:<input type="checkbox" name="city1" value=" mumbai">mumbai
+<input type="checkbox" name="city2" value=" pune">pune
+<input type="checkbox" name="city3" value=" hyderabad">hyderabads<br>
+select your course:<select name="course" >
+<option value="java">java</option>
+<option value="Angular js">Angular js</option>
+<option value="python">python</option>
+<option value="django">django</option>
+<option value="ios">ios</option>
+<option value="spring">spring</option>
+</select><br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</fieldset>
+</form>
+</body>
+</head>
+</html>
+

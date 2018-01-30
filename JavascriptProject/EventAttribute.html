@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function effect()
+{
+	var text=document.getElementById("para1");
+	  text.style.backgroundColor="lightgreen";
+}
+function removeEffect()
+{
+
+	var text=document.getElementById("para1");
+	  text.style.backgroundColor="white";
+}
+</script>
+</head>
+<body>
+
+<h1>Event Attribute</h1>
+
+<p id="para1" onmouseover="effect()"onmouseout="removeEffect()">this para will show you how effect behavior</p>
+</body>
+</html>

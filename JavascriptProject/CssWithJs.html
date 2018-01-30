@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function cssEffect()
+{
+	var x=document.getElementById("para1");//return single element
+	x.style.color="green";
+	x.style.fontSize="20px"
+		
+	var y=document.getElementsByTagName("p");//return array of an element
+	y[0].style.backgroundColor="skyblue";
+}
+</script>
+</head>
+<body>
+<h1>apply css to html element using javascript function and event</h1>
+<p id="para1">this will show you css and js effect</p>
+<button onclick="cssEffect()"> click here to see changes</button>
+</body>
+</html>

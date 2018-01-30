@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<body>
+<head>
+<style>
+hr{
+    width="25%";
+      align="center";
+
+   }
+
+
+div {
+    border: 1px solid black;
+    background-color:white;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+</style>
+</head>
+<body>
+<div>
+
+  <h2 tilte="Google">
+<img src="/home/bridgeit/anil/HtmlProject1/googlelogo.jpg" width="80px"></h2>
+
+<form action="https://www.google.co.in/gmail">
+<div>
+<img src="">
+</div>
+<p style="font-size:150%;">Choose an account</p><input type="submit" value=""><p>anil patil</p>
+         <p>anilrspatil15@gmail.com</p><br>
+<input type="submit" value="Signed out">
+
+<p style="font-size:120%;">Use another account</p>
+<br>
+<hr>
+<input type="submit" value="Remove an account">
+
+</form>
+     
+</div>            
+</body>
+</html>
